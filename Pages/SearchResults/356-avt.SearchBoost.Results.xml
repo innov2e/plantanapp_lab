@@ -1,0 +1,41 @@
+<module type="avtSearchBoostResults" version="05.25.15.00">
+    <contentKey />
+    <moduleID>356</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+    </modulepermissions>
+    <title>avt.SearchBoost.Results</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>320d0cfb-14b7-4dad-8278-b114bb44ce48</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>InitBehavior</settingname>
+            <settingvalue>1</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>avt.SearchBoost.Results</definition>
+    <moduledefinition>avt.SearchBoost.Results</moduledefinition>
+</module>

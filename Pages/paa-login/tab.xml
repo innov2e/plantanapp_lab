@@ -1,0 +1,77 @@
+<tab>
+    <content>Login</content>
+    <contentKey />
+    <containersrc>[G]containers/pagebuilder/nocardnotitle.ascx</containersrc>
+    <cultureCode />
+    <description />
+    <disabled>false</disabled>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <issecure>false</issecure>
+    <visible>false</visible>
+    <issystem>false</issystem>
+    <keywords />
+    <pageheadtext />
+    <permanentredirect>false</permanentredirect>
+    <refreshinterval>-1</refreshinterval>
+    <sitemappriority>0</sitemappriority>
+    <skinsrc>[G]skins/pagebuilder/login_bs5.ascx</skinsrc>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <name>paa-login</name>
+    <title>Login</title>
+    <url type="Normal" />
+    <tabpermissions>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>All Users</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Low-Code Engineer</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Low-Code Engineer</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_TAB</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+    </tabpermissions>
+    <tabsettings>
+        <tabsetting>
+            <settingname>AllowIndex</settingname>
+            <settingvalue>True</settingvalue>
+        </tabsetting>
+        <tabsetting>
+            <settingname>LinkNewWindow</settingname>
+            <settingvalue>False</settingvalue>
+        </tabsetting>
+    </tabsettings>
+    <tabUrls />
+</tab>

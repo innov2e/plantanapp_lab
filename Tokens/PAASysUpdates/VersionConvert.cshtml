@@ -1,0 +1,13 @@
+@inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
+@{
+    string versionStr = "0.0.0";
+    if(TknParams.Version != null) {
+        var inputStr = TknParams.Version.ToString();
+        versionStr = string.IsNullOrEmpty(inputStr) ? versionStr : inputStr;
+    }
+    var version = new Version(versionStr);
+    if (version.Build == -1) {
+        version = new Version(version.Major, version.Minor, 0);
+    }
+}
+@(version.Major.ToString("00") + "." + version.Minor.ToString("00") + "." + version.Build.ToString("00"))

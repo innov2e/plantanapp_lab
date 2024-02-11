@@ -1,0 +1,10 @@
+@inherits avt.MyTokens.Core.ParsingEngine.RazorTemplate
+@{
+	var Status=TknParams.Status.Value.ToString(); 
+    if(Status=="Success")
+    @: <span class="badge bg-success">Success</span>
+    if(Status=="Failed")
+    @: <span class="badge bg-danger">Failed</span>
+    if(Status=="Running")
+    @: <span class="badge bg-info">Running</span>
+}
