@@ -1,0 +1,94 @@
+<module type="avtTabsPro" version="05.25.10.00">
+    <contentKey />
+    <moduleID>417</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions />
+    <title>Tabs</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>ad1d44fe-d560-41b2-b2b1-65b42af38547</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>avt.TabsPro</definition>
+    <moduledefinition>avt.TabsPro</moduledefinition>
+    <content type="avtTabsPro" version="05.25.10.00"><![CDATA[&lt;TabsPro&gt;
+  &lt;TabsLayout&gt;HorizontalTop&lt;/TabsLayout&gt;
+  &lt;TabsFullWidth&gt;False&lt;/TabsFullWidth&gt;
+  &lt;IsCollapsible&gt;False&lt;/IsCollapsible&gt;
+  &lt;AutoScroll&gt;False&lt;/AutoScroll&gt;
+  &lt;IsCollapsedInitially&gt;False&lt;/IsCollapsedInitially&gt;
+  &lt;TabWidth&gt;200&lt;/TabWidth&gt;
+  &lt;PanelHeight&gt;-1&lt;/PanelHeight&gt;
+  &lt;TabsProRootClass /&gt;
+  &lt;LoadProgressively&gt;False&lt;/LoadProgressively&gt;
+  &lt;Effect&gt;none&lt;/Effect&gt;
+  &lt;PersistOnPostback&gt;True&lt;/PersistOnPostback&gt;
+  &lt;PersistInUrl&gt;True&lt;/PersistInUrl&gt;
+  &lt;PersistInCookies&gt;False&lt;/PersistInCookies&gt;
+  &lt;Dlg_Display&gt;False&lt;/Dlg_Display&gt;
+  &lt;Dlg_HtmlTrigger /&gt;
+  &lt;Dlg_ContentWidth&gt;600&lt;/Dlg_ContentWidth&gt;
+  &lt;Dlg_ContentHeight&gt;400&lt;/Dlg_ContentHeight&gt;
+  &lt;Dlg_Modal&gt;False&lt;/Dlg_Modal&gt;
+  &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
+  &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+  &lt;Delay&gt;1&lt;/Delay&gt;
+  &lt;AppendIds&gt;False&lt;/AppendIds&gt;
+  &lt;AccordionOnMobile&gt;True&lt;/AccordionOnMobile&gt;
+  &lt;ShowEmptyTabs&gt;False&lt;/ShowEmptyTabs&gt;
+  &lt;Modal_Display&gt;False&lt;/Modal_Display&gt;
+  &lt;Modal_DisplayHeight&gt;auto&lt;/Modal_DisplayHeight&gt;
+  &lt;Modal_DisplayMinHeight /&gt;
+  &lt;Modal_DisplayPlaceholder /&gt;
+  &lt;Modal_DisplayTitle /&gt;
+  &lt;Modal_DisplayWidth&gt;80%&lt;/Modal_DisplayWidth&gt;
+  &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
+  &lt;WidgetProvider&gt;{&quot;name&quot;:&quot;WidgetProvider&quot;,&quot;value&quot;:&quot;Bootstrap5&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/WidgetProvider&gt;
+  &lt;OpenAction&gt;{&quot;name&quot;:&quot;OpenAction&quot;,&quot;value&quot;:&quot;Click&quot;,&quot;inherit&quot;:true,&quot;canOverride&quot;:true}&lt;/OpenAction&gt;
+  &lt;Tabs&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;Details&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;ImageType&gt;None&lt;/ImageType&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;True&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;True&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;Details&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;416&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;Details Form&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
+      &lt;/Modules&gt;
+    &lt;/Tab&gt;
+  &lt;/Tabs&gt;
+&lt;/TabsPro&gt;]]></content>
+</module>
